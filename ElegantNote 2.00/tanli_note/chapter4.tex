@@ -230,9 +230,9 @@ u_{\varphi}=\frac{4B\rho \varphi}{E}+H\rho -I\sin \varphi +K\cos \varphi\\
 \begin{example}
 设有圆环（平面应力问题）或圆筒（平面应变问题）受均匀内压力$q_1$，和外压力$q_2$作用；内半径为$r$;外半径为$R$。试求应力分量；位移分量。
 \end{example}
-\begin{figure*}[h]
+\begin{figure*}[!h]
 	\centering
-	\includegraphics[scale=0.4]{figure/4-5.png}
+	\includegraphics[scale=0.3]{figure/4-5.png}
 \end{figure*}
 	\begin{remark}
 		轴对称应力问题的应力通解：
@@ -261,7 +261,7 @@ u_{\varphi}=\frac{4B\rho \varphi}{E}+H\rho -I\sin \varphi +K\cos \varphi\\
 		A=\frac{r^2R^2\left( q_2-q_1 \right)}{R^2-r^2}\\
 		C=\frac{q_1r^2-q_2R^2}{R^2-r^2}\\
 		\end{cases}\]
-		得：\[\begin{cases}
+		得(拉梅的解答)：\[\begin{cases}
 		\sigma _{\rho}=\frac{\frac{R^2}{\rho ^2}-1}{\frac{R^2}{r^2}-1}q_1-\frac{1-\frac{r^2}{\rho ^2}}{1-\frac{r^2}{R^2}}q_2\\
 		\sigma _{\varphi}=\frac{\frac{R^2}{\rho ^2}+1}{\frac{R^2}{r^2}-1}q_1-\frac{1+\frac{r^2}{\rho ^2}}{1-\frac{r^2}{R^2}}q_2\\
 		\end{cases}\]
@@ -332,9 +332,9 @@ u_{\varphi}=\frac{4B\rho \varphi}{E}+H\rho -I\sin \varphi +K\cos \varphi\\
 \begin{example}
 	实心圆盘在$\rho = r$的圆周上受有均布压力$q$的作用，试求其应力分量。
 \end{example}
-\begin{figure*}
+\begin{figure*}[!h]
 	\centering
-	\includegraphics[scale=0.4]{figure/4-6.png}
+	\includegraphics[scale=0.25]{figure/4-6.png}
 \end{figure*}
 	\begin{remark}
 		平面轴对称应用问题，应力通解为：
@@ -358,3 +358,74 @@ u_{\varphi}=\frac{4B\rho \varphi}{E}+H\rho -I\sin \varphi +K\cos \varphi\\
 	\end{remark}
 
 \subsection{压力隧洞}
+问题描述：圆筒埋在无限大弹性体中，受有均布内压力$q$，设圆筒和无限大弹性体的弹性常数分别为$E,\mu,\text{和}E',\mu'$\\
+\hspace*{2em}问题本质:本题是两个圆筒的接触问题，两个圆筒均为轴对称问题（平面应变问题），因为不符合均匀性假定，必须分别采用两个轴对称解答。
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{figure/4-7.png}
+	\caption{$n<1$}
+\end{figure}
+不管是内圆筒还是外弹性体，都有贯穿孔道，属于多连体，故需要考虑位移单值条件有$B=0,B'=0$。\\
+内圆筒应力表达式：\[\begin{cases}
+\sigma _{\rho}=\frac{A}{\rho ^2}+2C\\
+\sigma _{\varphi}=-\frac{A}{\rho ^2}+2C\\
+\end{cases}\]
+无限大弹性体应力表达式：\[\begin{cases}
+\sigma '_{\rho}=\frac{A'}{\rho ^2}+2C'\\
+\sigma '_{\varphi}=-\frac{A'}{\rho ^2}+2C'\\
+\end{cases}\]
+根据圣维南原理，离内圆筒的无穷远处的应力应为零。并且圆筒和无限大弹性体的接触面上的应力应当相等
+则边界条件为：\[\begin{cases}
+\left( \sigma _{\rho} \right) _{\rho =r}=-q\\
+\left( \sigma '_{\rho} \right) _{\rho \rightarrow \infty}=0\\
+\left( \sigma _{\rho} \right) _{\rho =R}=\left( \sigma '_{\rho} \right) _{\rho =R}\\
+\end{cases}\]
+即：\[\begin{cases}
+\frac{A}{r^2}+2C=-q\\
+C'=0\\
+\frac{A}{R^2}+2C=\frac{A'}{R^2}+2C'\\
+\end{cases}\]
+在接触面上圆筒和无限大弹性体应当具有相同的位移，得：\[\left( u_{\rho} \right) _{\rho =R}=\left( u'_{\rho} \right) _{\rho =R}\]
+即：\[\frac{1+\mu}{E}\left[ 2\left( 1-2\mu \right) CR-\frac{A}{R} \right] +I\cos \varphi +K\sin \varphi =\frac{1+\mu '}{E'}\left[ 2\left( 1-2\mu ' \right) C'R-\frac{A'}{R} \right] +I'\cos \varphi +K'\sin \varphi \]
+因为在接触面的任意一点都要满足上式，则有：\[\frac{1+\mu}{E}\left[ 2\left( 1-2\mu \right) CR-\frac{A}{R} \right] =\frac{1+\mu '}{E'}\left[ 2\left( 1-2\mu ' \right) C'R-\frac{A'}{R} \right] \]
+令$n=\frac{E'\left( 1+\mu \right)}{E\left( 1+\mu ' \right)}$：
+综合方程，联立可得：
+\begin{equation}
+\begin{cases}
+\sigma _{\rho}=-q\frac{\left[ 1+\left( 1-2\mu \right) n \right] \frac{R^2}{\rho ^2}-\left( 1-n \right)}{\left[ 1+\left( 1-2\mu \right) n \right] \frac{R^2}{r^2}-\left( 1-n \right)}\\
+\sigma _{\rho}=q\frac{\left[ 1+\left( 1-2\mu \right) n \right] \frac{R^2}{\rho ^2}+\left( 1-n \right)}{\left[ 1+\left( 1-2\mu \right) n \right] \frac{R^2}{r^2}-\left( 1-n \right)}\\
+\sigma _{\rho}'=-\sigma _{\varphi}'=-q\frac{2\left( 1-\mu \right) n\frac{R^2}{\rho ^2}}{\left[ 1+\left( 1-2\mu \right) n \right] \frac{R^2}{r^2}-\left( 1-n \right)}\\
+\end{cases}
+\end{equation}
+
+\begin{example}
+设有一刚体，具有半径$R$圆柱形孔道，孔道内放置外半径为$R$，内半径为$r$的圆筒，圆筒受均布压力q,试求出圆筒的应力。
+\end{example}
+\begin{figure*}[!h]
+	\centering
+	\includegraphics[scale=0.5]{figure/4-8.png}
+\end{figure*}
+	\begin{remark}
+		圆筒轴对称应力问题的通解为：
+		\[\begin{cases}
+		\sigma _{\rho}=\frac{A}{\rho ^2}+2C\\
+		\sigma _{\varphi}=-\frac{A}{\rho ^2}+2C\\
+		\tau _{\rho \varphi}=0\\
+		\end{cases}\]
+		位移通解：\[\begin{cases}
+		u_{\rho}=\frac{1+\mu}{E}\left[ -\frac{A}{\rho}+2\left( 1-2\mu \right) C\rho \right] +I\cos \varphi +K\sin \varphi\\
+		u_{\varphi}=H\rho -I\sin \varphi +K\cos \varphi\\
+		\end{cases}\]
+		应力边界条件：\[\left( \sigma _{\rho} \right) _{\rho =r}=-q\]
+		刚体是不可形变的，它能起到限制圆筒外边界径向位移的作用，因此位移边界条件：\[\left( u_{\rho} \right) _{\rho =R}=0\]
+		解得：\[\begin{cases}
+		A=\frac{-q}{\frac{1}{r^2}+\frac{1}{1-2\mu}\frac{1}{R^2}}\\
+		C=\frac{-q}{2R^2\left( \frac{1-2\mu}{r^2}+\frac{1}{R^2} \right)}\\
+		\end{cases}\Longrightarrow \begin{cases}
+		\sigma _{\rho}=\frac{\frac{1-2\mu}{\rho ^2}+\frac{1}{R^2}}{\frac{1-2\mu}{r^2}+\frac{1}{R^2}}q\\
+		\sigma _{\varphi}=\frac{\frac{1-2\mu}{\rho ^2}-\frac{1}{R^2}}{\frac{1-2\mu}{r^2}+\frac{1}{R^2}}q\\
+		\end{cases}\]
+	\end{remark}
+	\begin{note}
+		本题不能按照压力隧洞的方式求解，因为在外部与圆筒相接触的是一个刚体，而刚体是不能引用弹性力学的解答
+	\end{note}
