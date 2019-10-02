@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.14)  2 OCT 2019 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.14)  2 OCT 2019 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1711,26 +1711,36 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 14.4pt on input line 14.
-<figure/1.jpg, id=86, 200.75pt x 264.99pt>
+<figure/2.jpg, id=94, 475.7775pt x 587.19376pt>
+File: figure/2.jpg Graphic file (type jpg)
+<use figure/2.jpg>
+Package pdftex.def Info: figure/2.jpg  used on input line 24.
+(pdftex.def)             Requested size: 142.73434pt x 176.15948pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+<figure/3.jpg, id=95, 291.0875pt x 381.425pt>
+File: figure/3.jpg Graphic file (type jpg)
+<use figure/3.jpg>
+Package pdftex.def Info: figure/3.jpg  used on input line 28.
+(pdftex.def)             Requested size: 133.90187pt x 175.45763pt.
+<figure/1.jpg, id=96, 200.75pt x 264.99pt>
 File: figure/1.jpg Graphic file (type jpg)
 <use figure/1.jpg>
-Package pdftex.def Info: figure/1.jpg  used on input line 17.
-(pdftex.def)             Requested size: 200.7495pt x 264.98935pt.
+Package pdftex.def Info: figure/1.jpg  used on input line 32.
+(pdftex.def)             Requested size: 140.52403pt x 185.49173pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 18.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 18.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 18.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
+(Font)              scaled to size 10.0pt on input line 39.
 
 (d:/texlive/2019/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
 File: zhwindowsfonts.tex 2019/04/07 v2.4.15 Windows font map loader for pdfTeX 
 and DVIPDFMx (CTEX)
 ) [1
 
- <./figure/1.jpg>]
+ <./figure/2.jpg> <./figure/3.jpg> <./figure/1.jpg>]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
@@ -1744,38 +1754,38 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 2.
-<figure/4-1.png, id=117, 394.3533pt x 321.8424pt>
+<figure/4-1.png, id=125, 394.3533pt x 321.8424pt>
 File: figure/4-1.png Graphic file (type png)
 <use figure/4-1.png>
 Package pdftex.def Info: figure/4-1.png  used on input line 5.
 (pdftex.def)             Requested size: 197.17616pt x 160.9208pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 6.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 6.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 8.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 9.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 9.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 9.
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
 quanjiao) on input line 33.
  [2
 
  <./figure/4-1.png>]
-<figure/4-2.png, id=165, 405.6756pt x 344.9688pt>
+<figure/4-2.png, id=176, 405.6756pt x 344.9688pt>
 File: figure/4-2.png Graphic file (type png)
 <use figure/4-2.png>
 Package pdftex.def Info: figure/4-2.png  used on input line 39.
 (pdftex.def)             Requested size: 202.8373pt x 172.48396pt.
-<figure/4-3.png, id=166, 378.6948pt x 231.5049pt>
+<figure/4-3.png, id=177, 378.6948pt x 231.5049pt>
 File: figure/4-3.png Graphic file (type png)
 <use figure/4-3.png>
 Package pdftex.def Info: figure/4-3.png  used on input line 68.
 (pdftex.def)             Requested size: 189.34692pt x 115.75215pt.
- [3 <./figure/4-2.png> <./figure/4-3.png>]
-<figure/4-4.png, id=194, 401.3394pt x 282.5757pt>
+[3 <./figure/4-2.png> <./figure/4-3.png>]
+<figure/4-4.png, id=205, 401.3394pt x 282.5757pt>
 File: figure/4-4.png Graphic file (type png)
 <use figure/4-4.png>
 Package pdftex.def Info: figure/4-4.png  used on input line 103.
@@ -1793,80 +1803,101 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 8.8pt on input line 188.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 6.6pt on input line 188.
-[5]) [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+[5] [6]
+<figure/4-5.png, id=331, 357.2547pt x 356.7729pt>
+File: figure/4-5.png Graphic file (type png)
+<use figure/4-5.png>
+Package pdftex.def Info: figure/4-5.png  used on input line 235.
+(pdftex.def)             Requested size: 142.89934pt x 142.70662pt.
+ [7 <./figure/4-5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
+
+ []
+
+<figure/4-6.png, id=358, 357.2547pt x 356.7729pt>
+File: figure/4-6.png Graphic file (type png)
+<use figure/4-6.png>
+Package pdftex.def Info: figure/4-6.png  used on input line 337.
+(pdftex.def)             Requested size: 142.89934pt x 142.70662pt.
+[8]) [9 <./figure/4-6.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (./tan.aux (./chapter4.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `tan.out' has not changed.
-(rerunfilecheck)             Checksum: 322B7E7FB78F2E7EA767FB82127C4878;1653.
+(rerunfilecheck)             Checksum: 10B6DBCF0EA8882F8EAE6B48A6152842;1881.
  ) 
 Here is how much of TeX's memory you used:
- 41144 strings out of 492623
- 734813 string characters out of 6133290
- 982665 words of memory out of 5000000
- 44018 multiletter control sequences out of 15000+600000
- 658498 words of font info for 306 fonts, out of 8000000 for 9000
+ 41414 strings out of 492623
+ 738912 string characters out of 6133290
+ 983665 words of memory out of 5000000
+ 44228 multiletter control sequences out of 15000+600000
+ 663898 words of font info for 326 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,122p,790b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/s
+ 62i,12n,122p,790b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
 imkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows
 /Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:
 /Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai
 .ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Font
+s/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Wind
+ows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf>
+<c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/sim
+kai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/F
+onts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/W
+indows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.t
+tf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/
+simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Window
+s/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf>{d
+:/texlive/2019/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/Windows/Font
 s/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Wind
 ows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf>
 <c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/sim
-kai.ttf>{d:/texlive/2019/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/Wi
-ndows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.tt
-f><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/s
-imkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows
-/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:
-/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun
-.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
-s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
-ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
-sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
-onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
+kai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/F
+onts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
 indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
 tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
 simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
 s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
 :/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsu
-n.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
-ts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
-dows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
+n.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
+ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
+dows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/si
 msun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
 Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/
-Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.
+Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.
 ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts
-/simhei.ttf><c:/Windows/Fonts/simhei.ttf>{d:/texlive/2019/texmf-dist/fonts/enc/
-dvips/base/8r.enc}{d:/texlive/2019/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf
-.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
-s/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Wind
-ows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf>
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/sim
-hei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
-onts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/W
-indows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.t
+/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windo
+ws/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><
+c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sims
+un.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fo
+nts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Wi
+ndows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.tt
+f><c:/Windows/Fonts/simhei.ttf>{d:/texlive/2019/texmf-dist/fonts/enc/dvips/base
+/8r.enc}{d:/texlive/2019/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<c:/W
+indows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.t
 tf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/
-simhei.ttf><d:/texlive/2019/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><d:
-/texlive/2019/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2019/
-texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><d:/texlive/2019/texmf-dist/fo
-nts/type1/public/newtx/rntxmi.pfb><d:/texlive/2019/texmf-dist/fonts/type1/publi
-c/newtx/rntxmi7.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxm
-i.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb><d:/texli
-ve/2019/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><d:/texlive/2019/texmf-d
-ist/fonts/type1/public/newtx/txexs.pfb><d:/texlive/2019/texmf-dist/fonts/type1/
-public/newtx/txsys.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on tan.pdf (6 pages, 627126 bytes).
+simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Window
+s/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c
+:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhe
+i.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fon
+ts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
+dows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf
+><d:/texlive/2019/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><d:/texlive/2
+019/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2019/texmf-dist
+/fonts/type1/public/tex-gyre/qtmri.pfb><d:/texlive/2019/texmf-dist/fonts/type1/
+public/newtx/rntxmi.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/newtx/rn
+txmi7.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><d:/
+texlive/2019/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb><d:/texlive/2019/te
+xmf-dist/fonts/type1/public/txfonts/rtxr.pfb><d:/texlive/2019/texmf-dist/fonts/
+type1/public/newtx/txexs.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/new
+tx/txsys.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tan.pdf (9 pages, 848504 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 498 compressed objects within 5 object streams
- 50 named destinations out of 1000 (max. 500000)
- 23470 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 825 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 23530 words of extra memory for PDF output out of 24883 (max. 10000000)
 

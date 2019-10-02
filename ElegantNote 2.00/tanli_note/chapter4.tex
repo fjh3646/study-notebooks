@@ -224,5 +224,137 @@ u_{\varphi}=\frac{4B\rho \varphi}{E}+H\rho -I\sin \varphi +K\cos \varphi\\
 		特征方程：
 		\[k\left( k-1 \right) \left( k-2 \right) \left( k-3 \right) +2k\left( k-1 \right) \left( k-2 \right) -9k\left( k-1 \right) +9k=0\]
 		解得：\[k_1=4,k_2=2,k_3=0,k_4=-2\]
-		得：\[\]
+		得：\[f\left( \rho \right) =A\rho ^4+B\rho ^2+C+D\rho ^{-2}\]
 	\end{remark}
+\subsection{圆环或圆筒受均布压力}
+\begin{example}
+设有圆环（平面应力问题）或圆筒（平面应变问题）受均匀内压力$q_1$，和外压力$q_2$作用；内半径为$r$;外半径为$R$。试求应力分量；位移分量。
+\end{example}
+\begin{figure*}[h]
+	\centering
+	\includegraphics[scale=0.4]{figure/4-5.png}
+\end{figure*}
+	\begin{remark}
+		轴对称应力问题的应力通解：
+		\begin{equation*}
+			\begin{cases}
+			\sigma _{\rho}=\frac{A}{\rho ^2}+B\left( 1+2\ln \rho \right) +2C\\
+			\sigma _{\varphi}=-\frac{A}{\rho ^2}+B\left( 3+2+\ln \rho \right) +2C\\
+			\tau _{\rho \varphi}=0\\
+			\end{cases}
+		\end{equation*}
+		应力边界条件：
+		\begin{equation*}
+			\begin{cases}
+			\left( \sigma _{\rho} \right) _{\rho =r}=-q_1\\
+			\left( \sigma _{\rho} \right) _{\rho =R}=-q_2\\
+			\left( \tau _{\rho \varphi} \right) _{\rho =r}=\left( \tau _{\rho \varphi} \right) _{\rho =R}=0\\
+			\end{cases}\Longrightarrow \left\{ \begin{array}{c}
+			\frac{A}{r^2}+B\left( 1+2\ln r \right) +2C=-q_1\\
+			\frac{A}{R^2}+B\left( 1+2\ln r \right) +2C=-q_2\\
+			\end{array} \right. 
+		\end{equation*}
+		圆环或圆筒具有贯穿孔洞，为多连体，故需进一步考虑位移单值条件：
+		由\[u_{\varphi}=\frac{4B\rho \varphi}{E}+H\rho -I\sin \varphi +K\cos \varphi \]
+		考虑$\left( \rho ,\varphi \right) \text{和}\left( \rho ,\varphi +2\pi \right) $同一点只能有一确定的位移，故$B=0$。
+		则:\[\begin{cases}
+		A=\frac{r^2R^2\left( q_2-q_1 \right)}{R^2-r^2}\\
+		C=\frac{q_1r^2-q_2R^2}{R^2-r^2}\\
+		\end{cases}\]
+		得：\[\begin{cases}
+		\sigma _{\rho}=\frac{\frac{R^2}{\rho ^2}-1}{\frac{R^2}{r^2}-1}q_1-\frac{1-\frac{r^2}{\rho ^2}}{1-\frac{r^2}{R^2}}q_2\\
+		\sigma _{\varphi}=\frac{\frac{R^2}{\rho ^2}+1}{\frac{R^2}{r^2}-1}q_1-\frac{1+\frac{r^2}{\rho ^2}}{1-\frac{r^2}{R^2}}q_2\\
+		\end{cases}\]
+	\end{remark}
+
+\begin{example}
+轴对称应力条件下的应力和位移的通解，可以应用于各种应力边界条件和位移边界条件的情形，试考虑下列圆环或圆筒的问题应如何求解
+\begin{enumerate}
+	\item 内边界受均布压力$q_1$作用，而外边界为固定边.
+	\item 外边界受均布压力$q_2$作用，而内边界为固定边.
+	\item 外边界受到强迫的均匀位移$u_{\rho}=-\varDelta $，而内边界为自由边（如车辆的轮毂的作用.
+	\item 内边界受到强迫的均匀位移$u_{\rho}=\varDelta $，而外边界为自由边.
+\end{enumerate}
+\end{example}
+		\begin{remark}
+			\quad \\
+			\begin{enumerate}
+				\item 应力边界条件:\[\begin{cases}
+				\left( \sigma _{\rho} \right) _{\rho =r}=-q_1\\
+				\left( \tau _{\rho \varphi} \right) _{\rho =r}=0\\
+				\end{cases}\Longrightarrow \frac{A}{r ^2}+2C=-q_1\]
+				位移边界条件：\[\begin{cases}
+				\left( u_{\rho} \right) _{\rho =R}=0\\
+				\left( u_{\varphi} \right) _{\rho =R}=0\\
+				\end{cases}\Longrightarrow \begin{cases}
+				H=I=K=0\\
+				-\left( 1+\mu \right) \frac{A}{R}+2\left( 1-\mu \right) CR=0\\
+				\end{cases}\]
+				
+				\item 应力边界条件:\[\begin{cases}
+				\left( \sigma _{\rho} \right) _{\rho =R}=-q_2\\
+				\left( \tau _{\rho \varphi} \right) _{\rho =R}=0\\
+				\end{cases}\Longrightarrow \frac{A}{R^2}+2C=-q_2\]
+				位移边界条件：\[\begin{cases}
+				\left( u_{\rho} \right) _{\rho =r}=0\\
+				\left( u_{\varphi} \right) _{\rho =r}=0\\
+				\end{cases}\Longrightarrow \begin{cases}
+				H=I=K=0\\
+				-\left( 1+\mu \right) \frac{A}{r}+2\left( 1-\mu \right) Cr=0\\
+				\end{cases}\]
+				
+				\item 应力边界条件：\[\begin{cases}
+				\left( \sigma _{\rho} \right) _{\rho =r}=0\\
+				\left( \tau _{\rho \varphi} \right) _{\rho =r}=0\\
+				\end{cases}\Longrightarrow \frac{A}{r^2}+2C=0\]
+				位移边界条件：\[\begin{cases}
+				\left( u_{\rho} \right) _{\rho =R}=-\varDelta\\
+				\left( u_{\varphi} \right) _{\rho =R}=0\\
+				\end{cases}\Longrightarrow \begin{cases}
+				H=I=K=0\\
+				-\left( 1+\mu \right) \frac{A}{R}+2\left( 1-\mu \right) CR=-E\varDelta\\
+				\end{cases}\]
+				
+				\item 应力边界条件：\[\begin{cases}
+				\left( \sigma _{\rho} \right) _{\rho =R}=0\\
+				\left( \tau _{\rho \varphi} \right) _{\rho =R}=0\\
+				\end{cases}\Longrightarrow \frac{A}{R^2}+2C=0\]
+				位移边界条件：$$\begin{cases}
+					\left( u_{\rho} \right) _{\rho =r}=-\varDelta\\
+					\left( u_{\varphi} \right) _{\rho =r}=0\\
+				\end{cases}\Longrightarrow \begin{cases}
+					H=I=K=0\\
+					-\left( 1+\mu \right) \frac{A}{r}+2\left( 1-\mu \right) Cr=-E\varDelta\\
+				\end{cases}$$
+			\end{enumerate}
+		\end{remark}
+	
+\begin{example}
+	实心圆盘在$\rho = r$的圆周上受有均布压力$q$的作用，试求其应力分量。
+\end{example}
+\begin{figure*}
+	\centering
+	\includegraphics[scale=0.4]{figure/4-6.png}
+\end{figure*}
+	\begin{remark}
+		平面轴对称应用问题，应力通解为：
+		\begin{equation*}
+		\begin{cases}
+		\sigma _{\rho}=\frac{A}{\rho ^2}+B\left( 1+2\ln \rho \right) +2C\\
+		\sigma _{\varphi}=-\frac{A}{\rho ^2}+B\left( 3+2+\ln \rho \right) +2C\\
+		\tau _{\rho \varphi}=0\\
+		\end{cases}
+		\end{equation*}
+		应力的有界性，圆盘中心处（即$\rho=0$）处的应力值应当有界，不能是无限大的故$A=B=0$
+		\\
+		应力边界条件:\[\begin{cases}
+		\left( \sigma _{\rho} \right) _{\rho =r}=-q\\
+		\left( \tau _{\rho \varphi} \right) _{\rho =r}=0\\
+		\end{cases}\Longrightarrow C=-\frac{q}{2}\]
+		故实心圆盘的应力解答：\[\begin{cases}
+		\sigma _{\rho}=\sigma _{\varphi}=-q\\
+		\tau _{\rho \varphi}=0\\
+		\end{cases}\]
+	\end{remark}
+
+\subsection{压力隧洞}
