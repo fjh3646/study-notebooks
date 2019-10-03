@@ -429,3 +429,68 @@ C'=0\\
 	\begin{note}
 		本题不能按照压力隧洞的方式求解，因为在外部与圆筒相接触的是一个刚体，而刚体是不能引用弹性力学的解答
 	\end{note}
+
+\subsection{曲梁的纯弯曲}
+\subsubsection{问题及其描述}
+矩形截面曲梁：内半径为$a$,外半径为$b$，在两端受有大小相等而转向相反的力偶$M$作用（梁的厚度为一个单位）：$o$为曲梁的曲率转中心，两端面间极角为$\beta$，
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{figure/4-9.png}
+\caption{}
+\end{figure}
+梁的全部边界都没有剪力。\\
+在梁的内外两面，边界要求：$\left( \sigma _{\rho} \right) _{\rho =a}=0   ,   \left( \sigma _{\rho} \right) _{\rho =b}=0$\\
+代入应力通解得：\[\begin{cases}
+\frac{A}{a^2}+B\left( 1+\ln 2a \right) +2C=0\\
+\frac{A}{b^2}+B\left( 1+\ln 2b \right) +2C=0\\
+\end{cases}\]
+根据圣维南原理，环向正应力$\sigma _{\varphi}$的主矢量应当为零，并合成弯矩$M$，因此要求：\[\int_a^b{\sigma _{\varphi}d\rho}=0   ,   \int_a^b{\rho \sigma _{\varphi}d\rho}=M\]
+可求得：\[-\left( \varPhi \right) _{a}^{b}=M\]
+即\[-\left( A\ln \frac{b}{a}+Bb^2\ln b+Cb^2+D \right) +\left( A\ln a+Ba^2\ln a+Ca^2+D \right) =-M\]
+令$N=\left( \frac{b^2}{a^2}-1 \right) ^2-4\frac{b^2}{a^2}\left( \ln \frac{b}{a} \right) ^2$：
+可得：\[\begin{cases}
+A=\frac{4M}{N}\frac{b^2}{a^2}\ln \frac{b}{a}\\
+B=\frac{2M}{a^2N}\left( \frac{b^2}{a^2}-1 \right)\\
+C=-\frac{M}{a^2N}\left[ \frac{b^2}{a^2}-1+2\left( \frac{b^2}{a^2}\ln b-\ln a \right) \right]\\
+\end{cases}\]
+\begin{equation}
+\begin{cases}
+\sigma _{\rho}=-\frac{4M}{Na^2}\left( \frac{b^2}{a^2}\ln \frac{b}{\rho}+\ln \frac{\rho}{a}-\frac{b^2}{\rho ^2}\ln \frac{b}{a} \right)\\
+\sigma _{\varphi}=\frac{4M}{Na^2}\left( \frac{b^2}{a^2}-1-\frac{b^2}{a^2}\ln \frac{b}{\rho}-\ln \frac{\rho}{a}-\frac{b^2}{\rho ^2}\ln \frac{b}{a} \right)\\
+\tau _{\rho \varphi}=0\\
+\end{cases}
+\end{equation}
+\begin{note}
+	\quad
+	\begin{enumerate}
+		\item $\rho = a$,$\sigma _{\varphi}$取得最大值。
+		\item 中性轴（$\sigma _{\varphi}=0$距内侧纤维较近，离外侧较远，中心轴不在过截面形心。
+		\item 与材料力学比较，$\sigma _{\varphi}$关于截面不再成双曲线分布，但曲率不大时这种情况影响较小，挤压应力$\sigma _{\rho}$实际不为零。
+	\end{enumerate}
+\end{note}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{figure/4-10.png}
+	\caption{}
+\end{figure}
+\begin{example}
+图示为带有一微小张角$\alpha$缺口的圆环，若将此圆环焊成一整环，试求此时圆环的内力矩$M$。
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.6]{figure/4-11.png}
+\end{figure}
+\end{example}
+\begin{remark}
+要使该圆环焊成一整环，需在两端加上一对平衡力矩$M$，使其产生环向位移$\delta =\rho \alpha $由两端受力偶作用时环向位移计算式\[u_{\varphi}=\frac{4B}{E}\rho \varphi +H\rho -I\sin \varphi +K\cos \varphi \]
+可得:\[\left. u_{\varphi} \right|_{\varphi =2\pi}-\left. u_{\varphi} \right|_{\varphi =0}=\frac{8B\rho \pi}{E}=\delta =\rho \alpha \Rightarrow B=\frac{E\alpha}{8\pi}\]
+代入$B$的计算式\[B=\frac{2M}{a^2N}\left( \frac{b^2}{a^2}-1 \right) \]
+得：\[M=\frac{E\alpha a^4N}{16\pi \left( b^2-a^2 \right)}\]
+\end{remark}
+
+\subsection{圆孔的孔口应力集中}
+背景：工程结构中常开设孔口，最简单的为圆孔，本节研究“小圆孔孔口应力集中问题”\\
+小孔的条件：
+\begin{enumerate}
+\item 孔口尺寸$\ll $弹性体尺寸,孔口引起的应力扰动局限于小范围内。
+\item 孔边距边界较远（$>$1.5倍孔口尺寸），孔口与边界互不干扰。
+\end{enumerate}
