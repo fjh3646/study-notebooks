@@ -89,6 +89,13 @@
 	\tau _{xy}=-\frac{\partial ^2\varPhi}{\partial x\partial y}\\
 	\end{cases}
 \end{equation}
+\subsection{圣维南原理}
+\begin{enumerate}
+	\item 圣维南原理只能应用于一小部分边界（小边界，次要边界或局部边界）。
+	\item 静力等效——指两者主矢量相同，对同一点主矩也相等。
+	\item 近处——指面力变换范围的一至二倍的局部区域。
+	\item 远处——近处以外。
+\end{enumerate}
 \begin{example}
 \end{example}
 	\centerline{\includegraphics[scale=0.45]{figure/2-1.png}}
@@ -116,11 +123,25 @@
 		水坝，左水右空
 \end{example}
 \centerline{\includegraphics[scale=0.6]{figure/2-3.png}}
-
+\begin{remark}
+	\quad\\
+	右侧：$l=\cos \beta ,m=\cos \left( \frac{\pi}{2}+\beta \right) =-\sin \beta $\[\begin{cases}
+	\cos \beta \sigma _x-\sin \beta \tau _{xy}=0\\
+	\cos \beta \tau _{xy}-\sin \beta \sigma _y=0\\
+	\end{cases}\]
+	左侧：$l=-\cos \alpha ,m=-\sin \alpha $\[\begin{cases}
+	-\cos \alpha \sigma _x-\tau _{xy}\sin \alpha =\gamma y\cos \alpha\\
+	-\cos \alpha \tau _{xy}-\sigma _y\sin \alpha =\gamma y\sin \alpha\\
+	\end{cases}\]	
+\end{remark}
 
 \begin{example}
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-4.png}}
+\begin{remark}
+	上下:$\left( \sigma _y \right) _{y=\pm b}=0,\left( \tau _{xy} \right) _{y=\pm b}=0$\\
+	左右：$\left( \sigma _x \right) _{x=\pm a}=q\left( \frac{y}{b} \right) ^2,\left( \tau _{xy} \right) _{x=\pm a}=0$
+\end{remark}
 
 \begin{example}
 设有矩形截面的竖柱，密度为$\rho$,应力分量为$\begin{cases}
@@ -133,28 +154,53 @@
 	\begin{minipage}[c]{0.3\textwidth}
 		\centering
 		\includegraphics[scale=0.3]{figure/2-5.png}\\
-		$a$
+		$a$\\
+		\begin{flushleft}
+			上：$\left( \sigma _y \right) _{y=h}=0$\\
+		下：$\left( \sigma _y \right) _{y=0}=-\rho gh$\\
+		则：\[\begin{cases}
+		C_1=\rho g\\
+		C_2=-\rho gh\\
+		\end{cases}\]
+		\end{flushleft}
 	\end{minipage}
 \begin{minipage}[c]{0.3\textwidth}
 	\centering
 	\includegraphics[scale=0.3]{figure/2-6.png}\\
-	$b$
+	$b$\\
+	\begin{flushleft}
+		上：$\left( \sigma _y \right) _{y=h}=-\rho gh$\\
+	下：$\left( \sigma _y \right) _{y=0}=0$\\
+	则：\[\begin{cases}
+	C_1=-\rho g\\
+	C_2=0\\
+	\end{cases}\]
+	\end{flushleft}
 \end{minipage}
 \end{center}
 
 \begin{example}
 	证明$A$处无应力存在。
 \end{example}
-\centerline{\includegraphics[scale=0.5]{figure/2-7.png}}
-
+\centerline{\includegraphics[scale=0.4]{figure/2-7.png}}
+\begin{proof}
+	边界条件：\[\begin{cases}
+	l\sigma _x+m\tau _{xy}=0\\
+	l\tau _{xy}+m\sigma _y=0\\
+	\end{cases}\]
+	$l,m$是任意系数，则矩阵$\left[ \begin{matrix}
+	\sigma _x&		\tau _{xy}\\
+	\tau _{yx}&		\sigma _y\\
+	\end{matrix} \right] $为零矩阵，即$A$处无应力。
+\end{proof}
 \begin{example}
 	考虑两端固定的一维杆件,只受重力作用，$f_x=0,f_y=\rho g$使用位移法求解。
 \end{example}
-\centerline{\includegraphics[scale=0.5]{figure/2-8.png}}
+\centerline{\includegraphics[scale=0.4]{figure/2-8.png}}
 \begin{example}
 	考虑一端固定的一维杆件,只受重力作用，$f_x=0,f_y=\rho g$使用位移法求解。
 \end{example}
-\centerline{\includegraphics[scale=0.5]{figure/2-9.png}}
+\centerline{\includegraphics[scale=0.4]{figure/2-9.png}}
 
 \begin{example}
 	若$\varepsilon _x=ay^2,\varepsilon _y=bx^2,\gamma _{xy}=\left( a+b \right) xy$是否可能成为弹性体的应变。
