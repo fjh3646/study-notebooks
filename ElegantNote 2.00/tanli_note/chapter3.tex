@@ -265,3 +265,136 @@
 		\item 代入相容方程，必须满足$3\left( A+E \right) +C=0$时才可能是应力函数。
 	\end{enumerate}
 \end{remark}
+\begin{example}
+	图中所示的矩形截面柱体，在顶部受有集中$F$和力矩$M=\frac{Fb}{2}$的作用；试用应力函数$\varPhi =Ax^3+Bx^2$求解图示问题的应力及位移。
+\end{example}
+\centerline{\includegraphics[scale=0.6]{figure/3-8.png}}
+\begin{remark}
+	\quad
+	\begin{enumerate}
+		\item 校核相容方程 $\nabla ^4\varPhi =0$，满足。
+		\item 求应力分量，在无体力时得：\[\begin{cases}
+		\sigma _x=\frac{\partial ^2\varPhi}{\partial y^2}=0\\
+		\sigma _y=\frac{\partial ^2\varPhi}{\partial x^2}=6Ax+2B\\
+		\tau _{xy}=-\frac{\partial \varPhi}{\partial x\partial y}=0\\
+		\end{cases}\]
+		\item 校核边界条件\\
+		左右边界（主要边界）:应力条件应该准确满足\[\left( \sigma _x \right) _{x=\pm b}=0,\left( \tau _{xy} \right) _{x=\pm b}=0,\text{满足}\]
+		上边界（次要边界）：圣维南原理\[\begin{cases}
+		\int_{-b}^b{\left( \sigma _y \right) _{y=0}dx}=-F\rightarrow B=-\frac{F}{4b}\\
+		\int_{-b}^b{x\left( \sigma _y \right) _{y=0}dx}=-\frac{Fb}{2}\rightarrow A=-\frac{F}{8b^2}\\
+		\end{cases}\Longrightarrow \begin{cases}
+		\sigma _x=0\\
+		\sigma _y=-\frac{2F}{2b}\left( 1+\frac{3x}{2b} \right)\\
+		\tau _{xy}=0\\
+		\end{cases}\]
+		\item 求应变分量\[\begin{cases}
+		\varepsilon _x=\frac{1}{E}\left( \sigma _x-\mu \sigma _y \right) =\frac{\mu F}{2Eb}\left( 1+\frac{3x}{2b} \right)\\
+		\varepsilon _y=\frac{1}{E}\left( \sigma _y-\mu \sigma _x \right) =-\frac{F}{2Eb}\left( 1+\frac{3x}{2b} \right)\\
+		\gamma _{xy}=\frac{1}{G}\tau _{xy}=0\\
+		\end{cases}\]
+		\item 求位移分量\[\begin{cases}
+		\frac{\partial u}{\partial x}=\frac{\mu F}{2Eb}\left( 1+\frac{3x}{2b} \right)\\
+		\frac{\partial v}{\partial y}=-\frac{F}{2Eb}\left( 1+\frac{3x}{2b} \right)\\
+		\end{cases}\Longrightarrow \begin{cases}
+		u=\frac{\mu F}{2Eb}\left( x+\frac{3x^2}{4b} \right) +f_1\left( y \right)\\
+		v=-\frac{F}{2Eb}\left( y+\frac{3xy}{2b} \right) +f_2\left( x \right)\\
+		\end{cases}\]
+		\[\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}=\gamma _{xy}=0\Longrightarrow -\frac{df_1\left( y \right)}{dy}+\frac{3E}{4Eb^2}y=\frac{df_2\left( x \right)}{dx}=w\]
+		\[\begin{cases}
+		f_1\left( y \right) =\frac{3F}{8Eb^2}y^2-wy+u_0\\
+		f_2\left( x \right) =wx+v_0\\
+		\end{cases}\]
+		\item 由刚体约束条件确定待定常数
+		\[\begin{cases}
+		\left( \frac{\partial v}{\partial x} \right) _{x=0;y=h}=0\\
+		\left( u \right) _{x=0;y=h}=0\\
+		\left( v \right) _{x=0;y=h}=0\\
+		\end{cases}\Longrightarrow \begin{cases}
+		w=\frac{3F}{4Eb^2}h\\
+		u_0=\frac{3F}{8Eb^2}\\
+		v_0=\frac{F}{2Eb}h\\
+		\end{cases}\Longrightarrow \begin{cases}
+		u=\frac{\mu F}{2Eb}\left( x+\frac{3x^2}{4b} \right) +\frac{3F}{8Eb^2}\left( h-y \right) ^2\\
+		v=\frac{F}{2Eb}\left( h-y \right) \left( 1+\frac{3x}{2b} \right)\\
+		\end{cases}\]
+	\end{enumerate}
+\end{remark}
+\begin{example}
+	图中矩形截面的简支梁上，作用有三角形分布荷载，试用应力函数$\varPhi =Ax^3y^3+Bxy^5+Cx^3y+Dxy^3+Ex^3+Fxy$求解应力分量。
+\end{example}
+\centerline{\includegraphics[scale=0.5]{figure/3-9.png}}
+\begin{remark}
+	\quad
+	\begin{enumerate}
+		\item 代入相容方程得：\[72A+120B=0\Longrightarrow A=-\frac{5}{3}B\]
+		\item 在无体力情况下求应力分量\[\begin{cases}
+		\sigma _x=-10Bx^3y+20Bxy^3+6Dxy\\
+		\sigma _y=-10Bxy^3+6Cxy+6Ex\\
+		\tau _{xy}=15Bx^2y^2-5By^4-3Cx^2-3Dy^2-F\\
+		\end{cases}\]
+		\item 考察边界条件\\
+		上下边界（主要边界）：\[\begin{cases}
+		\left( \sigma _y \right) _{y=\frac{h}{2}}=q\frac{x}{l}\\
+		\left( \sigma \right) _{y=-\frac{h}{2}}=0\\
+		\left( \tau _{xy} \right) _{y=\pm \frac{h}{2}}=0\\
+		\end{cases}\Longrightarrow \begin{cases}
+		-\frac{5}{4}Bh^3+3Ch+6E=\frac{q}{l}\\
+		\frac{5}{4}Bh^3-3Ch+6E=0\\
+		3C-\frac{15}{4}Bh^2=0\\
+		\frac{5}{16}Bh^4+\frac{3}{4}Dh^2+F=0\\
+		\end{cases}\]
+		左右边界（次要边界）：\[\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \tau _{xy} \right) _{x=0}}=\frac{ql}{6}\Longrightarrow B\frac{h^5}{16}+D\frac{h^4}{4}+Fh=-\frac{ql}{6}\]
+		联立方程求解得：\[\begin{cases}
+		A=-\frac{q}{3lh^3}\\
+		B=\frac{q}{5lh^3}\\
+		C=\frac{q}{4lh}\\
+		D=q\left( \frac{l}{3h^3}-\frac{1}{10lh} \right)\\
+		E=\frac{q}{12l}\\
+		F=q\left( \frac{h}{80l}-\frac{l}{4h} \right)\\
+		\end{cases}\]
+		解得应力分量为\[\begin{cases}
+		\sigma _x=2q\frac{xy}{lh}\left( \frac{l^2-x^2}{h^2}+2\frac{y^2}{h^2}-\frac{3}{10} \right)\\
+		\sigma _y=-q\frac{x}{2l}\left( 1-3\frac{y^2}{h^2}+4\frac{y^3}{h^3} \right)\\
+		\tau _{xy}=\frac{q}{4}\left( 1-4\frac{y^2}{h^2} \right) \left( \frac{l}{h}-3\frac{x^2}{lh}-\frac{h}{20l}+\frac{y^2}{lh} \right)\\
+		\end{cases}\]
+		代入右边界也满足。
+	\end{enumerate}
+\end{remark}
+\begin{example}
+	矩形截面的柱体受到顶部的集中力为$\sqrt{2}F$和力矩$M$的作用，不计体力，试用应力函数$\varPhi =Ay^2+Bxy+Cxy^3+Dy^3$，求解其应力分量。
+\end{example}
+\centerline{\includegraphics[scale=0.6]{figure/3-10.png}}
+\begin{remark}
+	\quad
+	\begin{enumerate}
+		\item 将$\varPhi $代入相容方程，满足。
+		\item 在无体力情况下，求解应力分量\[\begin{cases}
+		\sigma _x=\frac{\partial ^2\varPhi}{\partial y^2}=2A+6Cxy+6Dy\\
+		\sigma _y=\frac{\partial ^2\varPhi}{\partial x^2}=0\\
+		\tau _{xy}=-\frac{\partial ^2\varPhi}{\partial x\partial y}=-\left( B+3Cy^2 \right)\\
+		\end{cases}\]
+		\item 考察边界条件\\
+		左右边界（主要边界）：\[\left( \tau _{xy} \right) _{y=\frac{b}{2}}=-q\Longrightarrow B+\frac{3}{4}Cb^2=q\]
+		上边界（次要边界）：\[\begin{cases}
+		\int_{-\frac{b}{2}}^{\frac{b}{2}}{\left( \sigma _x \right) _{x=0}dy}=-F\\
+		\int_{-\frac{b}{2}}^{\frac{b}{2}}{y\left( \sigma _x \right) _{x=0}dy}=-M\\
+		\int_{-\frac{b}{2}}^{\frac{b}{2}}{\left( \tau _{xy} \right) _{x=0}dy}=-F\\
+		\end{cases}\Longrightarrow \begin{cases}
+		Ab=-F\\
+		\frac{Db^3}{2}=-F\\
+		B+\frac{1}{4}Cb^2=\frac{F}{b}\\
+		\end{cases}\]
+		解得：\[\begin{cases}
+		A=-\frac{F}{b}\\
+		B=\frac{3F-qb}{2b}\\
+		C=\frac{2qb-2F}{b^3}\\
+		D=-\frac{2M}{b^3}\\
+		\end{cases}\]
+		最后得到应力分量\[\begin{cases}
+		\sigma _x=\frac{12\left( qb-F \right)}{b^3}xy-\frac{2My}{b^3}\\
+		\sigma _y=0\\
+		\tau _{xy}=-\left( \frac{6\left( qb-F \right)}{b^3}y^2+\frac{3F-qb}{2b} \right)\\
+		\end{cases}\]
+	\end{enumerate}
+\end{remark}
