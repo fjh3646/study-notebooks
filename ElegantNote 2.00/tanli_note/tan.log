@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.14)  4 OCT 2019 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.14)  5 OCT 2019 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1812,7 +1812,7 @@ File: figure/2-4.png Graphic file (type png)
 Package pdftex.def Info: figure/2-4.png  used on input line 140.
 (pdftex.def)             Requested size: 199.82605pt x 97.80515pt.
  [6 <./figure/2-2.png> <./figure/2-3.png>]
-Overfull \hbox (6.97003pt too wide) in paragraph at lines 147--152
+Overfull \hbox (6.97003pt too wide) in paragraph at lines 148--153
 [][][]\C70/rm/bx/n/12/4f ‹ \T1/ntxtlf/b/n/12 2.5 [][]\C70/rm/m/it/12/8b ¾ \C70/
 rm/m/it/12/67 	 \C70/rm/m/it/12/77 é \C70/rm/m/it/12/5f b \C70/rm/m/it/12/62 * 
 \C70/rm/m/it/12/97 b \C70/rm/m/it/12/76 „ \C70/rm/m/it/12/7a Ö \C70/rm/m/it/12/
@@ -1827,138 +1827,183 @@ it/12/78 n
 <figure/2-5.png, id=424, 286.671pt x 432.1746pt>
 File: figure/2-5.png Graphic file (type png)
 <use figure/2-5.png>
-Package pdftex.def Info: figure/2-5.png  used on input line 156.
+Package pdftex.def Info: figure/2-5.png  used on input line 157.
 (pdftex.def)             Requested size: 86.00195pt x 129.65338pt.
 <figure/2-6.png, id=425, 286.671pt x 432.1746pt>
 File: figure/2-6.png Graphic file (type png)
 <use figure/2-6.png>
-Package pdftex.def Info: figure/2-6.png  used on input line 169.
+Package pdftex.def Info: figure/2-6.png  used on input line 170.
 (pdftex.def)             Requested size: 86.00195pt x 129.65338pt.
-<figure/2-7.png, id=426, 221.1462pt x 322.3242pt>
-File: figure/2-7.png Graphic file (type png)
-<use figure/2-7.png>
-Package pdftex.def Info: figure/2-7.png  used on input line 185.
-(pdftex.def)             Requested size: 88.4569pt x 128.92738pt.
-[7 <./figure/2-4.png> <./figure/2-5.png> <./figure/2-6.png> <./figure/2-7.png>]
-<figure/2-8.png, id=458, 278.9622pt x 409.2891pt>
-File: figure/2-8.png Graphic file (type png)
-<use figure/2-8.png>
-Package pdftex.def Info: figure/2-8.png  used on input line 199.
-(pdftex.def)             Requested size: 111.5829pt x 163.71272pt.
-<figure/2-9.png, id=459, 278.7213pt x 404.4711pt>
-File: figure/2-9.png Graphic file (type png)
-<use figure/2-9.png>
-Package pdftex.def Info: figure/2-9.png  used on input line 203.
-(pdftex.def)             Requested size: 111.48654pt x 161.78557pt.
-<figure/2-10.png, id=461, 436.7517pt x 285.7074pt>
-File: figure/2-10.png Graphic file (type png)
-<use figure/2-10.png>
-Package pdftex.def Info: figure/2-10.png  used on input line 221.
-(pdftex.def)             Requested size: 218.3753pt x 142.85333pt.
-[8 <./figure/2-8.png> <./figure/2-9.png>]
-<figure/2-11.png, id=487, 323.5287pt x 412.4208pt>
-File: figure/2-11.png Graphic file (type png)
-<use figure/2-11.png>
-Package pdftex.def Info: figure/2-11.png  used on input line 226.
-(pdftex.def)             Requested size: 161.76395pt x 206.20988pt.
-File: figure/2-4.png Graphic file (type png)
-<use figure/2-4.png>
-Package pdftex.def Info: figure/2-4.png  used on input line 239.
-(pdftex.def)             Requested size: 199.82605pt x 97.80515pt.
-<figure/2-12.png, id=492, 405.9165pt x 191.5155pt>
-File: figure/2-12.png Graphic file (type png)
-<use figure/2-12.png>
-Package pdftex.def Info: figure/2-12.png  used on input line 244.
-(pdftex.def)             Requested size: 202.95775pt x 95.7575pt.
- [9 <./figure/2-10.png> <./figure/2-11.png>]
-<figure/2-13.png, id=518, 350.0277pt x 239.6955pt>
+<figure/2-15.png, id=426, 234.6366pt x 275.8305pt>
+File: figure/2-15.png Graphic file (type png)
+<use figure/2-15.png>
+Package pdftex.def Info: figure/2-15.png  used on input line 186.
+(pdftex.def)             Requested size: 93.85297pt x 110.33023pt.
+[7 <./figure/2-4.png> <./figure/2-5.png> <./figure/2-6.png> <./figure/2-15.png>
+]
+<figure/2-16.png, id=454, 195.6108pt x 188.6247pt>
+File: figure/2-16.png Graphic file (type png)
+<use figure/2-16.png>
+Package pdftex.def Info: figure/2-16.png  used on input line 197.
+(pdftex.def)             Requested size: 97.80515pt x 94.3121pt.
+<figure/2-13.png, id=455, 411.4572pt x 238.0092pt>
 File: figure/2-13.png Graphic file (type png)
 <use figure/2-13.png>
-Package pdftex.def Info: figure/2-13.png  used on input line 253.
-(pdftex.def)             Requested size: 175.01341pt x 119.84744pt.
-<figure/2-14.png, id=520, 352.4367pt x 281.6121pt>
+Package pdftex.def Info: figure/2-13.png  used on input line 208.
+(pdftex.def)             Requested size: 205.72809pt x 119.0043pt.
+ [8 <./figure/2-16.png> <./figure/2-13.png>]
+<figure/2-17.png, id=465, 327.3831pt x 184.5294pt>
+File: figure/2-17.png Graphic file (type png)
+<use figure/2-17.png>
+Package pdftex.def Info: figure/2-17.png  used on input line 228.
+(pdftex.def)             Requested size: 163.69115pt x 92.26447pt.
+<figure/2-7.png, id=466, 221.1462pt x 322.3242pt>
+File: figure/2-7.png Graphic file (type png)
+<use figure/2-7.png>
+Package pdftex.def Info: figure/2-7.png  used on input line 249.
+(pdftex.def)             Requested size: 88.4569pt x 128.92738pt.
+ [9 <./figure/2-17.png> <./figure/2-7.png>]
+<figure/2-8.png, id=485, 278.9622pt x 409.2891pt>
+File: figure/2-8.png Graphic file (type png)
+<use figure/2-8.png>
+Package pdftex.def Info: figure/2-8.png  used on input line 263.
+(pdftex.def)             Requested size: 97.63823pt x 143.25333pt.
+<figure/2-9.png, id=488, 278.7213pt x 404.4711pt>
+File: figure/2-9.png Graphic file (type png)
+<use figure/2-9.png>
+Package pdftex.def Info: figure/2-9.png  used on input line 285.
+(pdftex.def)             Requested size: 97.55391pt x 141.567pt.
+ [10 <./figure/2-8.png> <./figure/2-9.png>]
+<figure/2-10.png, id=515, 436.7517pt x 285.7074pt>
+File: figure/2-10.png Graphic file (type png)
+<use figure/2-10.png>
+Package pdftex.def Info: figure/2-10.png  used on input line 324.
+(pdftex.def)             Requested size: 218.3753pt x 142.85333pt.
+ [11 <./figure/2-10.png>]
+<figure/2-11.png, id=528, 327.1422pt x 416.2752pt>
+File: figure/2-11.png Graphic file (type png)
+<use figure/2-11.png>
+Package pdftex.def Info: figure/2-11.png  used on input line 335.
+(pdftex.def)             Requested size: 163.5707pt x 208.13708pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 8.8pt on input line 359.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 6.6pt on input line 359.
+[12 <./figure/2-11.png>]
+File: figure/2-4.png Graphic file (type png)
+<use figure/2-4.png>
+Package pdftex.def Info: figure/2-4.png  used on input line 374.
+(pdftex.def)             Requested size: 199.82605pt x 97.80515pt.
+<figure/2-12.png, id=540, 405.9165pt x 191.5155pt>
+File: figure/2-12.png Graphic file (type png)
+<use figure/2-12.png>
+Package pdftex.def Info: figure/2-12.png  used on input line 388.
+(pdftex.def)             Requested size: 202.95775pt x 95.7575pt.
+ [13]
+File: figure/2-13.png Graphic file (type png)
+<use figure/2-13.png>
+Package pdftex.def Info: figure/2-13.png  used on input line 419.
+(pdftex.def)             Requested size: 205.72809pt x 119.0043pt.
+ [14 <./figure/2-12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 421--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--441
+
+ []
+
+<figure/2-14.png, id=568, 352.4367pt x 281.6121pt>
 File: figure/2-14.png Graphic file (type png)
 <use figure/2-14.png>
-Package pdftex.def Info: figure/2-14.png  used on input line 259.
+Package pdftex.def Info: figure/2-14.png  used on input line 458.
 (pdftex.def)             Requested size: 176.21793pt x 140.80571pt.
-) [10 <./figure/2-12.png> <./figure/2-13.png> <./figure/2-14.png>]
+[15]
+Overfull \hbox (34.46361pt too wide) detected at line 463
+[] \U/ntxmia/m/it/12 ý [] = \OT1/ntxtlf/m/n/12 0 \U/ntxmia/m/it/12 =[]\LMS/ntxs
+y/m/n/12 ) [] \U/ntxmia/m/it/12 = [] [] = [] [] =[]\LMS/ntxsy/m/n/12 ) \OML/ntx
+mi/m/it/12 ^^[[] \U/ntxmia/m/it/12 = [] [] ý \OML/ntxmi/m/it/12 f[] []
+ []
+
+) [16 <./figure/2-14.png>]
 \openout2 = `chapter3.aux'.
 
-
-(./chapter3.tex [11
+ (./chapter3.tex [17
 
 
 ]
-<figure/3-1.png, id=562, 232.7094pt x 158.0304pt>
+<figure/3-1.png, id=613, 232.7094pt x 158.0304pt>
 File: figure/3-1.png Graphic file (type png)
 <use figure/3-1.png>
 Package pdftex.def Info: figure/3-1.png  used on input line 31.
 (pdftex.def)             Requested size: 93.08209pt x 63.21103pt.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.8pt on input line 43.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.6pt on input line 43.
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-<figure/3-2.png, id=563, 297.0297pt x 112.0185pt>
+<figure/3-2.png, id=614, 297.0297pt x 112.0185pt>
 File: figure/3-2.png Graphic file (type png)
 <use figure/3-2.png>
 Package pdftex.def Info: figure/3-2.png  used on input line 55.
 (pdftex.def)             Requested size: 178.21918pt x 67.2116pt.
-<figure/3-4.png, id=564, 233.4321pt x 198.5016pt>
+<figure/3-4.png, id=615, 233.4321pt x 198.5016pt>
 File: figure/3-4.png Graphic file (type png)
 <use figure/3-4.png>
 Package pdftex.def Info: figure/3-4.png  used on input line 60.
 (pdftex.def)             Requested size: 140.06033pt x 119.10187pt.
-[12 <./figure/3-1.png> <./figure/3-2.png> <./figure/3-4.png>]
-<figure/3-3.png, id=582, 363.5181pt x 164.2938pt>
+[18 <./figure/3-1.png> <./figure/3-2.png> <./figure/3-4.png>]
+<figure/3-3.png, id=630, 363.5181pt x 164.2938pt>
 File: figure/3-3.png Graphic file (type png)
 <use figure/3-3.png>
 Package pdftex.def Info: figure/3-3.png  used on input line 90.
 (pdftex.def)             Requested size: 218.11253pt x 98.57703pt.
- [13 <./figure/3-3.png>]
-<figure/3-5.png, id=595, 208.6194pt x 257.2812pt>
+ [19 <./figure/3-3.png>]
+<figure/3-5.png, id=642, 208.6194pt x 257.2812pt>
 File: figure/3-5.png Graphic file (type png)
 <use figure/3-5.png>
 Package pdftex.def Info: figure/3-5.png  used on input line 114.
 (pdftex.def)             Requested size: 146.03258pt x 180.09561pt.
- [14 <./figure/3-5.png>] [15]
-<figure/3-6.png, id=626, 442.2924pt x 192.2382pt>
+ [20 <./figure/3-5.png>] [21]
+<figure/3-6.png, id=672, 442.2924pt x 192.2382pt>
 File: figure/3-6.png Graphic file (type png)
 <use figure/3-6.png>
 Package pdftex.def Info: figure/3-6.png  used on input line 171.
 (pdftex.def)             Requested size: 265.37749pt x 115.3438pt.
-<figure/3-7.png, id=627, 339.9099pt x 398.9304pt>
+<figure/3-7.png, id=673, 339.9099pt x 398.9304pt>
 File: figure/3-7.png Graphic file (type png)
 <use figure/3-7.png>
 Package pdftex.def Info: figure/3-7.png  used on input line 206.
 (pdftex.def)             Requested size: 135.96155pt x 159.56934pt.
- [16 <./figure/3-6.png>] [17 <./figure/3-7.png>]
-<figure/3-8.png, id=650, 202.5969pt x 290.5254pt>
+ [22 <./figure/3-6.png>] [23 <./figure/3-7.png>]
+<figure/3-8.png, id=695, 202.5969pt x 290.5254pt>
 File: figure/3-8.png Graphic file (type png)
 <use figure/3-8.png>
 Package pdftex.def Info: figure/3-8.png  used on input line 271.
 (pdftex.def)             Requested size: 121.55907pt x 174.31657pt.
- [18] [19 <./figure/3-8.png>]
-<figure/3-9.png, id=673, 243.309pt x 221.1462pt>
+ [24] [25 <./figure/3-8.png>]
+<figure/3-9.png, id=719, 243.309pt x 221.1462pt>
 File: figure/3-9.png Graphic file (type png)
 <use figure/3-9.png>
 Package pdftex.def Info: figure/3-9.png  used on input line 326.
 (pdftex.def)             Requested size: 121.6542pt x 110.57281pt.
- [20 <./figure/3-9.png>]
-<figure/3-10.png, id=684, 197.2971pt x 256.0767pt>
+ [26 <./figure/3-9.png>]
+<figure/3-10.png, id=730, 197.2971pt x 256.0767pt>
 File: figure/3-10.png Graphic file (type png)
 <use figure/3-10.png>
 Package pdftex.def Info: figure/3-10.png  used on input line 367.
 (pdftex.def)             Requested size: 118.37917pt x 153.6472pt.
- [21 <./figure/3-10.png>]) [22]
+ [27 <./figure/3-10.png>]) [28]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
-<figure/4-1.png, id=698, 394.3533pt x 321.8424pt>
+<figure/4-1.png, id=744, 394.3533pt x 321.8424pt>
 File: figure/4-1.png Graphic file (type png)
 <use figure/4-1.png>
 Package pdftex.def Info: figure/4-1.png  used on input line 5.
@@ -1969,33 +2014,33 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 6.
- [23
+ [29
 
 
  <./figure/4-1.png>]
-<figure/4-2.png, id=711, 405.6756pt x 344.9688pt>
+<figure/4-2.png, id=755, 405.6756pt x 344.9688pt>
 File: figure/4-2.png Graphic file (type png)
 <use figure/4-2.png>
 Package pdftex.def Info: figure/4-2.png  used on input line 39.
 (pdftex.def)             Requested size: 202.8373pt x 172.48396pt.
-<figure/4-3.png, id=712, 378.6948pt x 231.5049pt>
+<figure/4-3.png, id=756, 378.6948pt x 231.5049pt>
 File: figure/4-3.png Graphic file (type png)
 <use figure/4-3.png>
 Package pdftex.def Info: figure/4-3.png  used on input line 68.
 (pdftex.def)             Requested size: 189.34692pt x 115.75215pt.
- [24 <./figure/4-2.png> <./figure/4-3.png>]
-<figure/4-4.png, id=723, 401.3394pt x 282.5757pt>
+ [30 <./figure/4-2.png> <./figure/4-3.png>]
+<figure/4-4.png, id=767, 401.3394pt x 282.5757pt>
 File: figure/4-4.png Graphic file (type png)
 <use figure/4-4.png>
 Package pdftex.def Info: figure/4-4.png  used on input line 103.
 (pdftex.def)             Requested size: 200.6692pt x 141.28749pt.
- [25 <./figure/4-4.png>]
+ [31 <./figure/4-4.png>]
 Overfull \hbox (25.42032pt too wide) detected at line 176
 [] []
  []
 
-[26] [27]
-<figure/4-5.png, id=764, 357.2547pt x 356.7729pt>
+[32] [33]
+<figure/4-5.png, id=808, 357.2547pt x 356.7729pt>
 File: figure/4-5.png Graphic file (type png)
 <use figure/4-5.png>
 Package pdftex.def Info: figure/4-5.png  used on input line 235.
@@ -2005,8 +2050,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--282
 
  []
 
-[28 <./figure/4-5.png>]
-<figure/4-6.png, id=777, 357.2547pt x 356.7729pt>
+[34 <./figure/4-5.png>]
+<figure/4-6.png, id=821, 357.2547pt x 356.7729pt>
 File: figure/4-6.png Graphic file (type png)
 <use figure/4-6.png>
 Package pdftex.def Info: figure/4-6.png  used on input line 337.
@@ -2015,8 +2060,8 @@ Package pdftex.def Info: figure/4-6.png  used on input line 337.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29]
-<figure/4-7.png, id=790, 533.5935pt x 348.1005pt>
+[35]
+<figure/4-7.png, id=834, 533.5935pt x 348.1005pt>
 File: figure/4-7.png Graphic file (type png)
 <use figure/4-7.png>
 Package pdftex.def Info: figure/4-7.png  used on input line 365.
@@ -2027,14 +2072,14 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 366.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.1pt on input line 366.
- [30 <./figure/4-6.png> <./figure/4-7.png>]
+ [36 <./figure/4-6.png> <./figure/4-7.png>]
 Overfull \hbox (7.6669pt too wide) detected at line 389
 [] [] \U/ntxmia/m/it/12 ý \OML/ntxmi/m/it/12 I [] ' \U/ntxmia/m/it/12 ý \OML/nt
 xmi/m/it/12 K [] ' \U/ntxmia/m/it/12 = [] [] ý \OML/ntxmi/m/it/12 I[] [] ' \U/n
 txmia/m/it/12 ý \OML/ntxmi/m/it/12 K[] [] '
  []
 
-<figure/4-8.png, id=801, 400.3758pt x 352.4367pt>
+<figure/4-8.png, id=846, 400.3758pt x 352.4367pt>
 File: figure/4-8.png Graphic file (type png)
 <use figure/4-8.png>
 Package pdftex.def Info: figure/4-8.png  used on input line 406.
@@ -2042,8 +2087,8 @@ Package pdftex.def Info: figure/4-8.png  used on input line 406.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31]
-<figure/4-9.png, id=809, 376.2858pt x 272.217pt>
+[37]
+<figure/4-9.png, id=854, 376.2858pt x 272.217pt>
 File: figure/4-9.png Graphic file (type png)
 <use figure/4-9.png>
 Package pdftex.def Info: figure/4-9.png  used on input line 438.
@@ -2062,18 +2107,18 @@ n/12/54 ^^Q \C70/rm/m/n/12/76 ø \C70/rm/m/n/12/53 Í \C70/rm/m/n/12/76 „ \C70/rm
 /m/n/12/52 › \C70/rm/m/n/12/50 v$\OML/ntxmi/m/it/12 M$\C70/rm/m/n/12/4f \
  []
 
-[32 <./figure/4-8.png>] [33 <./figure/4-9.png>]
-<figure/4-10.png, id=825, 209.3421pt x 165.4983pt>
+[38 <./figure/4-8.png>] [39 <./figure/4-9.png>]
+<figure/4-10.png, id=870, 209.3421pt x 165.4983pt>
 File: figure/4-10.png Graphic file (type png)
 <use figure/4-10.png>
 Package pdftex.def Info: figure/4-10.png  used on input line 473.
 (pdftex.def)             Requested size: 146.53847pt x 115.848pt.
-<figure/4-11.png, id=826, 166.221pt x 184.5294pt>
+<figure/4-11.png, id=871, 166.221pt x 184.5294pt>
 File: figure/4-11.png Graphic file (type png)
 <use figure/4-11.png>
 Package pdftex.def Info: figure/4-11.png  used on input line 480.
 (pdftex.def)             Requested size: 99.73335pt x 110.71849pt.
- [34 <./figure/4-10.png> <./figure/4-11.png>]) [35]
+ [40 <./figure/4-10.png> <./figure/4-11.png>]) [41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (./tan.aux (./chapter1.aux) (./chapter2.aux)
@@ -2084,27 +2129,27 @@ Package rerunfilecheck Info: File `tan.out' has not changed.
 (rerunfilecheck)             Checksum: C2D712C8C3657E6C5C588B019294EFFE;4501.
  ) 
 Here is how much of TeX's memory you used:
- 43117 strings out of 492623
- 766104 string characters out of 6133290
+ 43167 strings out of 492623
+ 766827 string characters out of 6133290
  985933 words of memory out of 5000000
- 45503 multiletter control sequences out of 15000+600000
- 720892 words of font info for 500 fonts, out of 8000000 for 9000
+ 45530 multiletter control sequences out of 15000+600000
+ 721432 words of font info for 502 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,122p,790b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,122p,790b,880s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows
 /Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:
 /Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai
-.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Font
-s/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Wind
-ows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf>
-<c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/sim
-sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
-onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/W
-indows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.t
-tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
-simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Window
-s/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c
+.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
+s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Wind
+ows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
+sun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
+onts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
+indows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.t
+tf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/
+simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Window
+s/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c
 :/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simka
 i.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fon
 ts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Win
@@ -2112,9 +2157,9 @@ dows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf
 ><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/si
 mkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/
 Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/
-Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.
-ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts
-/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windo
+Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.
+ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts
+/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windo
 ws/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><
 c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simk
 ai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fo
@@ -2169,12 +2214,13 @@ onts/rtxmi.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb>
 9/texmf-dist/fonts/type1/public/newtx/txexas.pfb><d:/texlive/2019/texmf-dist/fo
 nts/type1/public/newtx/txexs.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public
 /txfonts/txmia.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/txfonts/txsya
-.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive
-/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tan.pdf (35 pages, 1897255 bytes).
+.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb><d:/texli
+ve/2019/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2019/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tan.pdf (41 pages, 1982550 bytes).
 PDF statistics:
- 1488 PDF objects out of 1728 (max. 8388607)
- 1090 compressed objects within 11 object streams
- 244 named destinations out of 1000 (max. 500000)
- 28033 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1542 PDF objects out of 1728 (max. 8388607)
+ 1130 compressed objects within 12 object streams
+ 262 named destinations out of 1000 (max. 500000)
+ 28048 words of extra memory for PDF output out of 29859 (max. 10000000)
 

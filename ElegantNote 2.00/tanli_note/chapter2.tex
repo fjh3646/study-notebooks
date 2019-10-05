@@ -139,6 +139,7 @@
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-4.png}}
 \begin{remark}
+	\quad\\
 	上下:$\left( \sigma _y \right) _{y=\pm b}=0,\left( \tau _{xy} \right) _{y=\pm b}=0$\\
 	左右：$\left( \sigma _x \right) _{x=\pm a}=q\left( \frac{y}{b} \right) ^2,\left( \tau _{xy} \right) _{x=\pm a}=0$
 \end{remark}
@@ -180,6 +181,69 @@
 \end{center}
 
 \begin{example}
+	列出$x=a$的边界条件
+\end{example}
+\centerline{\includegraphics[scale=0.4]{figure/2-15.png}}
+\begin{remark}
+	\[\begin{cases}
+	\left( u \right) _{x=a}=\bar{u}=0\\
+	\left( \tau _{xy} \right) _{x=a}=\bar{f}_y=0\\
+	\end{cases}\]
+\end{remark}
+
+\begin{example}
+	列出边界条件
+\end{example}
+\centerline{\includegraphics[scale=0.5]{figure/2-16.png}}
+	\begin{remark}
+	\[\begin{cases}
+	\left( \sigma _x \right) _s=0\\
+	\left( v \right) _s=0\\
+	\end{cases}\]
+\end{remark}
+
+\begin{example}
+	列出边界条件
+\end{example}
+\centerline{\includegraphics[scale=0.5]{figure/2-13.png}}
+	\begin{remark}
+		\quad\\
+		上：\[\left( \sigma _y \right) _{y=-\frac{h}{2}}=-q,\left( \tau _{xy} \right) _{y=\frac{-h}{2}}=0\]
+		下：\[\left( \sigma _y \right) _{y=\frac{h}{2}}=0,\left( \tau _{xy} \right) _{y=\frac{h}{2}}=0\]
+		左：\[\begin{cases}
+		\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \sigma _x \right) _{x=0}dy\cdot 1}=F_N=0\\
+		\int_{-\frac{h}{2}}^{\frac{h}{2}}{y\cdot \left( \sigma _x \right) _{x=0}dy\cdot 1}=M=-\frac{1}{2}ql^2\\
+		\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \tau _{xy} \right) _{x=0}dy\cdot 1}=F_s=ql\\
+		\end{cases}\]
+		右:\[\begin{cases}
+		\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \sigma _x \right) _{x=l}dy\cdot 1}=0\\
+		\int_{-\frac{h}{2}}^{\frac{h}{2}}{y\left( \sigma _x \right) _{x=l}dy\cdot 1=0}\\
+		\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \tau _{xy} \right) _{x=l}dy\cdot 1}=0\\
+		\end{cases}\]
+	\end{remark}
+
+\begin{example}
+	试推导无面力作用时$AB$边界上的$\sigma _x,\sigma _y,\tau _{xy}$之间的关系。
+\end{example}
+\centerline{\includegraphics[scale=0.5]{figure/2-17.png}}
+	\begin{remark}
+		\quad\\
+		应力边界条件:\[\begin{cases}
+		\left( l\sigma _x+m\tau _{xy} \right) _{s_{\sigma}}=\bar{f}_x\left( s_{\sigma} \right)\\
+		\left( l\tau _{xy}+m\sigma _y \right) _{s_{\sigma}}=\bar{f}_y\left( s_{\sigma} \right)\\
+		\end{cases}\]
+		其中：\[l=\cos \alpha ,m=\cos \left( \frac{\pi}{2}-\alpha \right) =\sin \alpha ,\bar{f}_x=0,\bar{f}_y=0\]
+		则：\[\begin{cases}
+		\sigma _x\cos \alpha +\tau _{xy}\sin \alpha =0\\
+		\tau _{xy}\cos \alpha +\sigma _y\sin \alpha =0\\
+		\end{cases}\Longrightarrow \begin{cases}
+		\sigma _x=-\tau _{xy}\tan \alpha\\
+		\tau _{xy}=-\sigma _y\tan \alpha\\
+		\sigma _x=\sigma _y\tan ^2\alpha\\
+		\end{cases}\]
+	\end{remark}
+	
+\begin{example}
 	证明$A$处无应力存在。
 \end{example}
 \centerline{\includegraphics[scale=0.4]{figure/2-7.png}}
@@ -196,52 +260,154 @@
 \begin{example}
 	考虑两端固定的一维杆件,只受重力作用，$f_x=0,f_y=\rho g$使用位移法求解。
 \end{example}
-\centerline{\includegraphics[scale=0.4]{figure/2-8.png}}
+\centerline{\includegraphics[scale=0.35]{figure/2-8.png}}
+	\begin{remark}
+		\[	\begin{cases}
+		\frac{E}{1-\mu ^2}\left( \frac{\partial ^2u}{\partial x^2}+\frac{1-\mu}{2}\frac{\partial ^2u}{\partial y^2}+\frac{1+\mu}{2}\frac{\partial ^2v}{\partial x\partial y} \right) +f_x=0\\
+		\frac{E}{1-\mu ^2}\left( \frac{\partial ^2v}{\partial y^2}+\frac{1-\mu}{2}\frac{\partial ^2v}{\partial x^2}+\frac{1+\mu}{2}\frac{\partial ^2u}{\partial x\partial y} \right) +f_y=0\\
+		\end{cases}\]
+		可设$u=0,v=v\left( y \right) $\\
+		代入第一式自然满足。\\
+		代入第二式得\[\frac{\partial ^2v}{\partial y^2}=\frac{d^2v}{dy^2}=\frac{-\rho g}{E}\Longrightarrow v=-\frac{\rho g}{E}y^2+Ay+B\]
+		由位移边界条件得：\[\begin{cases}
+		v_{y=0}=0\\
+		v_{y=l}=0\\
+		\end{cases}\Longrightarrow \begin{cases}
+		A=\frac{\rho gl}{2E}\\
+		B=0\\
+		\end{cases}\Longrightarrow v=\frac{\rho g}{2E}\left( ly-y^2 \right)\]
+		代入几何方程得:\[\varepsilon _x=0,\varepsilon _y=\frac{\rho g}{2E}\left( 1-2y \right) ,\gamma _{xy}=0\]
+		代入物理方程得:\[\sigma _x=0,\sigma _y=\frac{\rho g}{2}\left( 1-2y \right) ,\tau _{xy}=0\]
+	\end{remark}
 \begin{example}
 	考虑一端固定的一维杆件,只受重力作用，$f_x=0,f_y=\rho g$使用位移法求解。
 \end{example}
-\centerline{\includegraphics[scale=0.4]{figure/2-9.png}}
-
+\centerline{\includegraphics[scale=0.35]{figure/2-9.png}}
+	\begin{remark}
+		\[	\begin{cases}
+		\frac{E}{1-\mu ^2}\left( \frac{\partial ^2u}{\partial x^2}+\frac{1-\mu}{2}\frac{\partial ^2u}{\partial y^2}+\frac{1+\mu}{2}\frac{\partial ^2v}{\partial x\partial y} \right) +f_x=0\\
+		\frac{E}{1-\mu ^2}\left( \frac{\partial ^2v}{\partial y^2}+\frac{1-\mu}{2}\frac{\partial ^2v}{\partial x^2}+\frac{1+\mu}{2}\frac{\partial ^2u}{\partial x\partial y} \right) +f_y=0\\
+		\end{cases}\]
+		可设$u=0,v=v\left( y \right) $\\
+		代入第一式自然满足。\\
+		代入第二式得\[\frac{\partial ^2v}{\partial y^2}=\frac{d^2v}{dy^2}=\frac{-\rho g}{E}\Longrightarrow v=-\frac{\rho g}{E}y^2+Ay+B\]
+		由位移边界条件得：\[v_{y=0}=0\Longrightarrow B=0\Longrightarrow v=-\frac{\rho g}{E}y^2+Ay\]
+		代入几何方程得:\[\varepsilon _x=0,\varepsilon _y=-\frac{\rho g}{E}y+A,\gamma _{xy}=0\]
+		代入物理方程得：\[\sigma _x=0,\sigma _y=-\rho gy+EA,\tau _{xy}=0\]
+		代入边界条件得：\[\left( \sigma _y \right) _{y=l}=0\Longrightarrow A=\frac{\rho gl}{E}\]
+		可得：\[v=\frac{-\rho g}{2E}y^2+\frac{\rho gl}{E}y,\varepsilon _y=-\frac{\rho g}{E}y+\frac{\rho gl}{E},\sigma _y=\rho g\left( l-y \right) \]
+	\end{remark}
+	
 \begin{example}
-	若$\varepsilon _x=ay^2,\varepsilon _y=bx^2,\gamma _{xy}=\left( a+b \right) xy$是否可能成为弹性体的应变。
+	若$\varepsilon _x=ay^2,\varepsilon _y=bx^2,\gamma _{xy}=\left( a+b \right) xy$是否可能成为弹性体的应变？
 \end{example}
 \begin{remark}
-	
+	\quad\\
+	代入应变表示的相容方程可得：$2a+2b=a+b$\\
+	当$a+b=0$时，可能,否则则不可能。
 \end{remark}
+
 \begin{example}
 若$f_x=f_y=0,\sigma _x=ax^2,\sigma _y=by^2,\tau _{xy}=0$是否可能成为弹性体的应力？
 \end{example}
 \begin{remark}
-	
+	代入平衡微分方程：\[\begin{cases}
+	2ax+0+0\ne 0\\
+	0+2by+0\ne 0\\
+	\end{cases}\]
+	故不可能存在。
 \end{remark}
 
 \begin{example}
-	试列出图中的边界条件
+	试列出图中的应力边界条件
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-10.png}}
+	\begin{remark}
+		\quad\\
+		上：\[\left( \sigma _y \right) _{y=-\frac{h}{2}}=-q\left( \frac{x}{l} \right) ^2,\left( \tau _{yx} \right) _{y=-\frac{h}{2}}=0\]
+		下：\[\left( \sigma _y \right) _{y=\frac{h}{2}}=0,\left( \tau _{xy} \right) _{y=\frac{h}{2}}=q_1\]
+		左：\[\int_{-\frac{h}{2}}^{\frac{h}{2}}{\sigma _xdy\cdot 1=F},\int_{-\frac{h}{2}}^{\frac{h}{2}}{\tau _{xy}dy\cdot 1}=F_s,\int_{-\frac{h}{2}}^{\frac{h}{2}}{y\sigma _xdy\cdot 1}=M\]
+	\end{remark}
 
 \begin{example}
-	试列出图中的边界条件
+	试列出图中的应力边界条件
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-11.png}}
+	\begin{remark}
+		\quad\\
+		左：\[\left( \sigma _x \right) _{x=0}=-\rho gy,\left( \tau _{xy} \right) _{x=0}=0\]
+		右：\[\left( \sigma _x \right) _{x=b}=0,\left( \tau _{xy} \right) _{x=b}=-q\]
+		上：\[\int_0^b{\sigma _ydx\cdot 1=-\frac{\sqrt{3}}{2}F,\int_0^b{\tau _{xy}dx\cdot 1}=}-\frac{1}{2}F,\int_0^b{x\sigma _ydy\cdot 1}=-\frac{\sqrt{3}}{4}Fb\]
+	\end{remark}
 
 \begin{example}
-	\quad
+	在无体力情况下，试考虑下列应力分量是否可能在弹性体中存在。
 	\begin{enumerate}
 		\item $\sigma _x=Ax+By,\sigma _y=Cx+Dy,\tau _{xy}=Ex+Fy$
 		\item $\sigma _x=A\left( x^2+y^2 \right) ,\sigma _y=B\left( x^2+y^2 \right) ,\tau _{xy}=Cxy$
 	\end{enumerate}
 \end{example}
+	\begin{remark}
+		\quad\\
+		\begin{enumerate}
+			\item 代入平衡方程:\[\begin{cases}
+			\frac{\partial \sigma _y}{\partial x}+\frac{\partial \tau _{yx}}{\partial y}=A+F=0\\
+			\frac{\partial \sigma _y}{\partial y}+\frac{\partial \tau _{xy}}{\partial x}=D+E=0\\
+			\end{cases}\Longrightarrow \begin{cases}
+			A=-F\\
+			D=-E\\
+			\end{cases}\text{即可}\]
+			满足相容方程$\nabla ^2\left( \sigma _x+\sigma _y \right) =0$\\
+			故可能存在。
+			\item 代入平衡方程：\[\begin{cases}
+			\frac{\partial \sigma _x}{\partial x}+\frac{\tau _{xy}}{\partial y}=2Ax+Cx\\
+			\frac{\partial \sigma _y}{\partial y}+\frac{\partial \tau _{xy}}{\partial x}=2By+Cy\\
+			\end{cases}\Longrightarrow A=B=-\frac{C}{2}\]
+			代入相容方程：\[2A+2B=0\]
+			故只有$A=B=C=0$时可能存在。
+		\end{enumerate}
+	\end{remark}
 
 \begin{example}
 	试验证下列应力分量是否是图示问题的解答\[\sigma _x=\frac{y^2}{b^2}q,\sigma _y=0,\tau _{xy}=0\]
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-4.png}}
+	\begin{remark}
+		\quad\\
+		代入平衡方程\[\begin{cases}
+		\frac{\partial \sigma _x}{\partial x}+\frac{\partial \tau _{xy}}{\partial y}+f_x=0\\
+		\frac{\partial \sigma _y}{\partial y}+\frac{\partial \tau _{xy}}{\partial x}+f_y=0\\
+		\end{cases}\]满足\\
+		代入应力形式的相容方程\[\nabla ^2\left( \sigma _x+\sigma _y \right) =\frac{2q}{b^2}\ne 0\]
+		不满足，故不存在。
+	\end{remark}
 
 \begin{example}
 	设有矩形截面悬臂梁，在自由端受集中力$F$作用，体力不计。试根据材料力学公式写出弯曲应力$\sigma _x$和切应力$\tau _{xy}$的表达式，然后证明这些表达试满足平衡方程和相容方程。再说明这些表达式是否是正确的解答。
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-12.png}}
+	\begin{remark}
+		材料力学中：\[\sigma _x=\frac{My}{I_z},\sigma _y=0,\tau _{xy}=\frac{F_QS_{z}^{*}}{I_zb}\]
+		其中：\[F_Q=-F,M=-Fx,S_{z}^{*}=\frac{1}{2}\left( \frac{h^2}{4}-y^2 \right) ,I_z=\frac{bh^3}{12}\]
+		则：\[\sigma _x=-\frac{12}{h^3}xy,\sigma _y=0,\tau _{xy}=\frac{6F}{h^3}\left( y^2-\frac{h^2}{4} \right) \]
+		验证应力是否满足三个条件：
+		\begin{enumerate}
+			\item 应力边界条件:
+			\begin{itemize}
+				\item 主要边界上（上下边界）：\[\left( \sigma _y \right) _{y=\pm \frac{h}{2}}=0,\left( \tau _{yx} \right) _{y=\pm \frac{h}{2}}=0,\text{满足}\]
+				\item 次要边界（左边界）：\[\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \tau _{xy} \right) _{x=0}dy\cdot 1=-F,\text{满足}}\]
+			\end{itemize}
+			\item 平衡方程：\[\begin{cases}
+			\frac{\partial \sigma _x}{\partial x}+\frac{\partial \tau _{xy}}{\partial y}+f_x=0\\
+			\frac{\partial \sigma _y}{\partial y}+\frac{\partial \tau _{xy}}{\partial x}+f_y=0\\
+			\end{cases}\Longrightarrow \begin{cases}
+			-\frac{12F}{h^3}y+\frac{12F}{h^3}y=0\\
+			0+0=0\\
+			\end{cases}\text{满足}\]
+			\item 应力形式的相容方程：\[\left( \frac{\partial ^2}{\partial x^2}+\frac{\partial ^2}{\partial y^2} \right) \left( \sigma _x+\sigma _y \right) =0,\text{满足}\]
+		\end{enumerate}
+		
+	\end{remark}
 
 \begin{example}
 	试用下列应力表达式求解其应力\[\begin{cases}
@@ -251,9 +417,62 @@
 	\end{cases}\]
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-13.png}}
+	\begin{remark}
+		\quad\\
+		\begin{enumerate}
+			\item 平衡微分方程：\[\begin{cases}
+			-\frac{12q}{h^3}x+\frac{12qx}{h^3}=0\\
+			\frac{12qy}{h^3}+C_1-\frac{12qy}{h^3}-C_1=0\\
+			\end{cases},\text{满足}\]
+			\item 相容方程：\[\left( \frac{\partial ^2}{\partial x^2}+\frac{\partial ^2}{\partial y^2} \right) \left( \sigma _x+\sigma _y \right) =0,\text{满足}\]
+			\item 校核边界条件：
+			\begin{itemize}
+				\item 上下边界：\[\begin{cases}
+				\left( \tau _{xy} \right) _{y=\pm \frac{h}{2}}=0\\
+				\left( \sigma _x \right) _{y=-\frac{h}{2}}=0\\
+				\end{cases}\Longrightarrow \begin{cases}
+				x\left( \frac{6q}{h^3}\frac{h^2}{4}+C_1 \right) =0\\
+				-\frac{2q}{h^3}\left( -\frac{h^3}{8} \right) +C_1\frac{h}{2}+C_2=-q\\
+				\end{cases}\Longrightarrow \begin{cases}
+				C_1=-\frac{3q}{2h}\\
+				C_2=-\frac{q}{2}\\
+				\end{cases}\]
+				将$C_1,C_2$代入后满足。\\
+				\item 左边界：\[\begin{cases}
+				\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \sigma _x \right) _{x=0}dy}=0,\text{满足}\\
+				\int_{-\frac{h}{2}}^{\frac{h}{2}}{y\left( \sigma _x \right)_{x=0} dy}=\frac{qh^2}{20},\text{满足}\\
+				\end{cases}\]
+				右边界：\[\begin{cases}
+				\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \sigma _x \right) _{x=l}dy}=0,\text{满足}\\
+				\int_{-\frac{h}{2}}^{\frac{h}{2}}{y\left( \sigma _x \right) _{x=l}dy}=\left( \frac{ql^2}{2}-\frac{qh^2}{20} \right) ,\text{满足}\\
+				\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \tau _{xy} \right) _{x=l}dy=-ql,\text{满足}}\\
+				\end{cases}\]
+			\end{itemize}
+		\end{enumerate}
+	\end{remark}
 
 \begin{example}
 	在材料力学中，当矩形截面梁（厚度$\delta =1$），受任意的横向荷载$q\left( x \right) $作用而弯曲，弯曲应力公式为$\sigma _x=\frac{M\left( x \right)}{I}y$。\\
 	试由平衡微分方程导出切应力和挤压应力$\sigma _y$的公式。
 \end{example}
 \centerline{\includegraphics[scale=0.5]{figure/2-14.png}}
+\begin{remark}
+	不计体力将$\sigma _x=\frac{M\left( x \right)}{I}y$代入平衡微分方程第一式
+	\[\frac{\partial \sigma _x}{\partial x}+\frac{\partial \tau _{xy}}{\partial y}=0\Longrightarrow \frac{\partial \tau _{ux}}{\partial y}=-\frac{dM\left( x \right)}{dx}\cdot \frac{y}{I}=-\frac{F_Q\left( x \right) y}{I}\Longrightarrow \tau _{xy}=-\frac{F_Q\left( x \right) y^2}{2I}+f_1\left( x \right) \]
+	由上下边界条件$\left( \tau _{xy} \right) _{y=\pm \frac{h}{2}}=0$可得：\[f_1\left( x \right) =-\frac{F_Q\left( x \right)}{8I}h^2\Longrightarrow \tau _{xy}=\frac{F_Q\left( x \right)}{I}\left( \frac{h^2}{8}-\frac{y^2}{2} \right) \]
+	将$\tau _{xy}$代入平衡微分方程第二式得：\[\frac{\partial \tau _{xy}}{\partial x}+\frac{\partial \sigma _y}{\partial y}=0\Longrightarrow \frac{\partial \sigma _y}{\partial y}=\frac{dF_Q\left( x \right)}{dyI}\left( \frac{h^2}{8}-\frac{y^2}{2} \right) =\frac{q\left( x \right)}{I}\left( \frac{h^2}{8}-\frac{y^2}{2} \right) \Longrightarrow \sigma _y=\frac{q\left( x \right)}{I}\left( \frac{h^2}{8}-\frac{y^3}{6} \right) +f_z\left( x \right) \]
+	由下边界条件$\left( \sigma _y \right) _{y=\frac{h}{2}}=0$得：\[f_2\left( x \right) =-\frac{q\left( x \right)}{2}\Longrightarrow \sigma _y=-q\left( x \right) \left( \frac{1}{2}-\frac{3}{2}\frac{y}{h}+2\frac{y^3}{h^3} \right) \]
+	若$q\left( x \right) $为常数则：\[M=\frac{ql^2}{2}\left( \frac{x}{l}-\frac{x^2}{q} \right) ,\sigma _x=\frac{6ql^2}{h^3}\left( \frac{x}{l}-\frac{x^2}{l^2} \right) y,\sigma _y=-q\left( \frac{1}{2}+\frac{3}{2}\frac{y}{h}+2\frac{y^3}{h^3} \right) \]
+	代入相容方程\[\nabla ^2\left( \sigma _x+\sigma _y \right) =-\frac{24q}{h^3}y\ne 0\]
+	为了满足相容方程，可令\[\sigma _x=\frac{6ql^2}{h^3}\left( \frac{x}{l}-\frac{x^2}{l^2} \right) y+\frac{4q}{h^3}y^3+Ay+B\]
+	由次要边界条件:\[\begin{cases}
+	\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \sigma _x \right) _{x=l}dy}=0\\
+	\int_{-\frac{h}{2}}^{\frac{h}{2}}{y\left( \sigma _x \right) _{x=0}dy}=0\\
+	\int_{-\frac{h}{2}}^{\frac{h}{2}}{\left( \tau _{xy} \right) _{x=0}dy=\frac{1}{2}ql}\\
+	\end{cases}\Longrightarrow \begin{cases}
+	A=-\frac{3q}{5h}\\
+	B=0\\
+	\end{cases}\]
+	得\[\sigma _x=\frac{6ql^2}{h^3}\left( \frac{x}{l}-\frac{x^2}{l^2} \right) y+\frac{4q}{h^3}y^3+-\frac{3q}{5h}y\]
+	
+\end{remark}
