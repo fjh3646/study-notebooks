@@ -153,7 +153,7 @@ u_{\varphi}\\
 \sigma _{\rho}=\frac{1}{\rho}\frac{d\varPhi}{d\rho}\,\,,     \sigma _{\varphi}=\frac{d^2\varPhi}{d\rho ^2},     \tau _{\rho \varphi}=0
 \end{equation}
 \begin{equation}
-\left( \frac{\partial ^2}{\partial \rho ^2}+\frac{1}{\rho}\frac{\partial}{\partial \rho} \right) \varPhi =0
+\left( \frac{d^2}{d\rho ^2}+\frac{1}{\rho}\frac{d}{d\rho} \right) ^2\varPhi =0
 \end{equation}
 即
 \begin{equation}
@@ -341,7 +341,7 @@ u_{\varphi}=\frac{4B\rho \varphi}{E}+H\rho -I\sin \varphi +K\cos \varphi\\
 		\begin{equation*}
 		\begin{cases}
 		\sigma _{\rho}=\frac{A}{\rho ^2}+B\left( 1+2\ln \rho \right) +2C\\
-		\sigma _{\varphi}=-\frac{A}{\rho ^2}+B\left( 3+2+\ln \rho \right) +2C\\
+		\sigma _{\varphi}=-\frac{A}{\rho ^2}+B\left( 3+2\ln \rho \right) +2C\\
 		\tau _{\rho \varphi}=0\\
 		\end{cases}
 		\end{equation*}
@@ -406,7 +406,7 @@ C'=0\\
 	\includegraphics[scale=0.5]{figure/4-8.png}
 \end{figure*}
 	\begin{remark}
-		圆筒轴对称应力问题的通解为：
+		圆筒轴对称应变问题的通解为：
 		\[\begin{cases}
 		\sigma _{\rho}=\frac{A}{\rho ^2}+2C\\
 		\sigma _{\varphi}=-\frac{A}{\rho ^2}+2C\\
@@ -494,3 +494,66 @@ C=-\frac{M}{a^2N}\left[ \frac{b^2}{a^2}-1+2\left( \frac{b^2}{a^2}\ln b-\ln a \ri
 \item 孔口尺寸$\ll $弹性体尺寸,孔口引起的应力扰动局限于小范围内。
 \item 孔边距边界较远（$>$1.5倍孔口尺寸），孔口与边界互不干扰。
 \end{enumerate}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{figure/4-17.png}
+\end{figure}
+应力分量：\[\begin{cases}
+\sigma _{\rho}=\frac{q_1+q_2}{2}\left( 1-\frac{a^2}{\rho ^2} \right) +\frac{q_1-q_2}{2}\left( 1-\frac{a^2}{\rho ^2} \right) \left( 1-3\frac{a^2}{\rho ^2} \right) \cos 2\varphi\\
+\sigma _{\varphi}=\frac{q_1+q_2}{2}\left( 1+\frac{a^2}{\rho ^2} \right) -\frac{q_1-q_2}{2}\left( 1+3\frac{a^2}{\rho ^2} \right) \cos 2\varphi\\
+\tau _{\varphi \rho}=-\frac{q_1-q_2}{2}\left( 1-\frac{a^2}{\rho ^2} \right) \left( 1+3\frac{a^2}{\rho ^2} \right) \sin 2\varphi\\
+\end{cases}\]
+\begin{example}
+	在薄板距边界较远的某一点处，应力分量为$\sigma _x=\sigma _y=0,\tau _{xy}=q$如该处有一小圆孔，试求孔边的最大正应力。
+\end{example}
+\centerline{\includegraphics[scale=0.45]{figure/4-12.png}}
+\begin{remark}
+%	\begin{figure*}[!h]
+%		\centering
+%		\begin{minipage}[c]{0.35\textwidth}
+%			\centering
+%			\includegraphics[scale=0.5]{figure/4-13.png}
+%		\end{minipage}
+%		\begin{minipage}[c]{0.35\textwidth}
+%			\centering
+%			\includegraphics[scale=0.5]{figure/4-14.png}
+%		\end{minipage}
+%	\end{figure*}
+经过等效转换可将问题转化为下问题\\
+\centerline{\includegraphics[scale=0.45]{figure/4-13.png}\includegraphics[scale=0.45]{figure/4-14.png}}\\
+则\[\begin{cases}
+\sigma _{\rho}=-q\left( 1-\frac{a^2}{\rho ^2} \right) \left( 1-3\frac{a^2}{\rho ^2} \right) \cos 2\varphi\\
+\sigma _{\varphi}=-q\left( 1+3\frac{a^4}{\rho ^4} \right) \cos 2\varphi\\
+\tau _{\rho \varphi}=-a\left( 1-\frac{a^2}{\rho ^2} \right) \left( 1+3\frac{a^2}{\rho ^2} \right) \sin 2\varphi\\
+\end{cases}\]
+将$\rho =a$代入得\[\begin{cases}
+\sigma _{\rho}=0\\
+\sigma _{\varphi}=-4q\cos 2\varphi\\
+\tau _{\rho \varphi}=0\\
+\end{cases}\]
+则孔边最大应力为\[\begin{cases}
+\sigma _{\rho}=0\\
+\sigma _{\varphi}=\pm 4q\\
+\tau _{\rho \varphi}=0\\
+\end{cases}\]
+\end{remark}
+
+\subsection{楔形体问题-受集中力$F$作用}
+\begin{example}
+	如图所示，半无限平面体在边界上受有两条等值反向间距为$d$的等中力作用，单位宽度上集中力的值为$F$,设间距距$d$很小，试求其应力分量。
+\end{example}
+\centerline{\includegraphics[scale=0.45]{figure/4-15.png}}
+\begin{remark}
+	原问题可以转化为\\
+\centerline{\includegraphics[scale=0.45]{figure/4-16.png}}
+\[\begin{cases}
+\sigma _{\rho}=\frac{2M\sin 2\varphi}{\left( \sin \alpha -\alpha \cos \alpha \right) \rho ^2}\\
+\sigma _{\varphi}=0\\
+\tau _{\rho \varphi}=-\frac{M\left( \cos 2\varphi -\cos \alpha \right)}{\left( \sin 2\alpha -\alpha \cos \alpha \right) \rho ^2}\\
+\end{cases}\]
+$\alpha =\pi $代入：\[\begin{cases}
+\sigma _{\rho}=\frac{2M\sin 2\varphi}{\pi \rho ^2}\\
+\sigma _{\varphi}=0\\
+\tau _{\rho \varphi}=-\frac{M\left( \cos 2\varphi +1 \right)}{\pi \rho ^2}\\
+\end{cases}\]
+\end{remark}
